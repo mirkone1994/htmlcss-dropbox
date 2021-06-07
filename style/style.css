@@ -9,3 +9,52 @@
     display: table; 
     clear: both;
 }
+header {
+    width: 100%;
+    height: 630px;
+}
+.toph {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+.toph .container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.toph .container .col {
+    float: left;
+    height: 80px;
+    line-height: 80px;
+}
+.toph .container .col {
+    width: 50%;
+}
+#logo {
+    vertical-align: middle;
+}
+.toph .container .col ul {
+    list-style: none;
+}
+.toph .container .col ul li {
+    display: inline-block;
+}
+.toph .container .col.left ul li {
+    margin-left: 30px;
+}
+.toph .container .col.right ul li {
+    margin-right: 30px;
+}
+.toph .container .col ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.toph .container .col.right {
+    text-align: right;
+}
+.toph .container .col ul li .log {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 5px 15px;
+}
