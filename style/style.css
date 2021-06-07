@@ -135,14 +135,14 @@ main {
     margin-top: 20px;
     margin-right: 5px;
 }
-.topm .container .col {
+.topm .container .col .side {
     width: calc(100% / 3 - 60px);
     height: 1000px;
     float: left;
     margin: 30px 30px;
     border: 1px solid #d0d0d3;
 }
-.topm .container .col .boxh {
+.topm .container .col .side .boxh {
     border-bottom: 1px solid #d0d0d3;
     height: 50px;
     text-align: center;
@@ -150,51 +150,94 @@ main {
     vertical-align: middle;
     font-weight: normal;
 }
-.topm .container .col .options {
+.topm .container .col .side .options {
     padding: 0 30px;
     font-size: 14px;
 }
-.topm .container .col .options h2 {
+.topm .container .col .side .options h2 {
     font-size: 25px;
     margin-top: 30px;
 }
-.topm .container .col .options .price {
+.topm .container .col .side .options .price {
     font-weight: 700;
 }
-.topm .container .col .options .users {
+.topm .container .col .side .options .users {
     color: #6e7d8a;
     margin-top: 5px;
 }
-.topm .container .col .options .space {
+.topm .container .col .side .options .space {
     line-height: 2.5em;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.topm .container .col .options .button {
+.topm .container .col .side .options .button {
     padding: 5px 40px;
     margin-top: 30px;
 }
-.topm .container .col .options .buy {
+.topm .container .col .side .options .buy {
     margin-top: 20px;
 }
-.topm .container .col .options .buy a {
+.topm .container .col .side .options .buy a {
     color: #0161ff;
 }
-.topm .container .col .options .separator {
+.topm .container .col .side .options .separator {
     width: 20%;
     height: 1px;
     background-color: #d0d0d3;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.topm .container .col .highlights {
+.topm .container .col .side .highlights {
     list-style-position: inside;
     padding: 0 30px;
 }
-.topm .container .col .highlights h4 {
+.topm .container .col .side .highlights h4 {
     margin-bottom: 20px;
 }
-.topm .container .col .highlights ul li {
+.topm .container .col .side .highlights ul li {
     margin: 20px 0;
     font-size: 14px;
+}
+.topm .container .team {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #d0d0d3;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+.topm .container .team .boxh {
+    border-bottom: 1px solid #d0d0d3;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    font-weight: normal;
+}
+.topm .container .team .col {
+    width: 100%;
+    height: 50px;
+}
+.topm .container .team .col .left {
+    width: 50%;
+    float: left;
+}
+.topm .container .team .col .right {
+    text-align: right;
+    width: 50%;
+    float: left;
+}
+.topm .container .team .enterprise {
+    padding: 30px 30px;
+}
+.topm .container .team .enterprise .col .left {
+    font-size: 25px;
+    font-weight: 700;
+}
+.topm .container .team .enterprise .col .right .button {
+    padding: 5px 50px;
+}
+.topm .container .team .enterprise p {
+    font-size: 14px;
+    margin-top: 30px;
+
 }
