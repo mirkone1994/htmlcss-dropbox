@@ -136,15 +136,36 @@ main {
     margin-right: 5px;
 }
 .topm .container .col {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 60px);
     height: 500px;
     float: left;
-    margin-top: 30px;
+    margin: 30px 30px;
     border: 1px solid #000;
 }
 .topm .container .col .boxh {
     border-bottom: 1px solid #000;
-    height: 30px;
+    height: 50px;
     text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
 }
+.topm .container .col .options {
+    padding: 0 30px;
+    font-size: 14px;
+}
+.topm .container .col .options .price {
+    font-weight: 700;
+}
+.topm .container .col .options .users {
+    color: #6e7d8a;
+    margin-top: 5px;
+}
+.topm .container .col .options .space {
+    line-height: 2.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.topm .container .col .options .button {
+    padding: 5px 40px;
+    margin-top: 30px;
 }
