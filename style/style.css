@@ -137,21 +137,26 @@ main {
 }
 .topm .container .col {
     width: calc(100% / 3 - 60px);
-    height: 500px;
+    height: 1000px;
     float: left;
     margin: 30px 30px;
-    border: 1px solid #000;
+    border: 1px solid #d0d0d3;
 }
 .topm .container .col .boxh {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #d0d0d3;
     height: 50px;
     text-align: center;
     line-height: 50px;
     vertical-align: middle;
+    font-weight: normal;
 }
 .topm .container .col .options {
     padding: 0 30px;
     font-size: 14px;
+}
+.topm .container .col .options h2 {
+    font-size: 25px;
+    margin-top: 30px;
 }
 .topm .container .col .options .price {
     font-weight: 700;
@@ -168,4 +173,28 @@ main {
 .topm .container .col .options .button {
     padding: 5px 40px;
     margin-top: 30px;
+}
+.topm .container .col .options .buy {
+    margin-top: 20px;
+}
+.topm .container .col .options .buy a {
+    color: #0161ff;
+}
+.topm .container .col .options .separator {
+    width: 20%;
+    height: 1px;
+    background-color: #d0d0d3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.topm .container .col .highlights {
+    list-style-position: inside;
+    padding: 0 30px;
+}
+.topm .container .col .highlights h4 {
+    margin-bottom: 20px;
+}
+.topm .container .col .highlights ul li {
+    margin: 20px 0;
+    font-size: 14px;
 }
