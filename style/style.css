@@ -317,5 +317,117 @@ main {
 .bottomm .partners {
     position: absolute;
     width: 100%;
-    height: 300px;
+}
+.bottomm .partners .col.left {
+    float: left;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.bottomm .partners .col.right {
+    float: right;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.bottomm .partners .col.center {
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+.bottomm .partners .col.left .topleft {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a2d39b;
+    background-image: url(../img/designit.svg);
+    background-position: center;
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+.bottomm .partners .col.left .topright {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #61082b;
+    background-image: url(../img/arizona_state_university.svg);
+    background-position: center;
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+.bottomm .partners .col.left .bottomleft {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0093ce;
+    background-image: url(../img/university_of_florida.svg);
+    background-position: center;
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+.bottomm .partners .col.left .bottomright {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ff1c1c;
+    background-image: url(../img/topps.svg);
+    background-position: center;
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+.bottomm .partners .col.right .topleft {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d5001f;
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-position: center;
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+.bottomm .partners .col.right .topright {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #b4d0e7;
+    background-image: url(../img/hearst_corp.svg);
+    background-position: center;
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+.bottomm .partners .col.right .bottomleft {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0d2481;
+    background-image: url(../img/lonely_planet.svg);
+    background-position: center;
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+.bottomm .partners .col.right .bottomright {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ffd830;
+    background-image: url(../img/clear_channel.svg);
+    background-position: center;
+    background-size: 10em;
+    background-repeat: no-repeat;
 }
