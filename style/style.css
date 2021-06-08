@@ -10,6 +10,7 @@
     display: table; 
     clear: both;
 }
+/********HEADER*******/
 header {
     width: 100%;
     height: auto;
@@ -109,6 +110,8 @@ h1 {
 .bottomh .container .col.left .arrowd {
     color: #000;
 }
+/********MAIN*******/
+/*sezione main top*/
 main {
     width: 100%;
     height: auto;
@@ -238,24 +241,24 @@ main {
 .topm .container .team .enterprise p {
     font-size: 14px;
     margin-top: 30px;
-
 }
-.mainm .container .col {
+/*sezione main middle*/
+.middlem .container .col {
     float: left;
 }
-.mainm .container .col.small {
+.middlem .container .col.small {
     width: 40%;
     height: 100%;
 }
-.mainm .container .col.big {
+.middlem .container .col.big {
     width: 60%;
     height: 100%;
 }
-.mainm .container .col.small h2 {
+.middlem .container .col.small h2 {
     font-size: 60px;
     padding-top: 25px;
 }
-.mainm .container .col.small p {
+.mmiddlem .container .col.small p {
     font-size: 25px;
     line-height: 1.5em;
 }
