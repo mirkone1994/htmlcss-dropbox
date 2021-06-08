@@ -248,38 +248,65 @@ main {
     height: 2000px;
     position: relative;
 }
-.middlem .container {
+.middlem .container.first {
     width: 1100px;
     height: 500px;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-bottom: 30px;
 }
-.middlem .container .col {
+.middlem .container.first .col {
     float: left;
 }
-.middlem .container .col.small {
+.middlem .container.first .col.small {
     width: 45%;
     height: 100%;
     padding: 25px 50px;
 }
-.middlem .container .col.big {
+.middlem .container.first .col.big {
     width: 55%;
     height: 100%;
     background-image: url(../img/partner.png);
     background-size: contain;
 }
-.middlem .container .col.small h2 {
+.middlem .container.first .col.small h2 {
     font-size: 25px;
 }
-.middlem .container .col.small p {
+.middlem .container.first .col.small p {
     font-size: 14px;
     margin-bottom: 20px;
 }
-.middlem .container .col.small .button {
+.middlem .container.first .col.small .button {
     border: 1px solid #000;
     background-color: #fff;
     color: #000;
-
+}
+.middlem .container.second {
+    width: 1100px;
+    height: 500px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.middlem .container.second .row {
+    width: 100%;
+}
+.middlem .container.second .row .col {
+    width: calc(100% / 3);
+    float: left;
+    height: 500px;
+    padding: 30px 30px;
+}
+.middlem .container.second .row .col img {
+    width: 350px;
+}
+.middlem .container.second .row .col h3 {
+    font-size: 25px;
+}
+.middlem .container.second .row .col p {
+    font-size: 14px;
+    margin-top: 20px;
 }
