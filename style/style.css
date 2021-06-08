@@ -260,18 +260,26 @@ main {
     float: left;
 }
 .middlem .container .col.small {
-    width: 40%;
+    width: 45%;
     height: 100%;
+    padding: 25px 50px;
 }
 .middlem .container .col.big {
-    width: 60%;
+    width: 55%;
     height: 100%;
+    background-image: url(../img/partner.png);
+    background-size: contain;
 }
 .middlem .container .col.small h2 {
-    font-size: 60px;
-    padding-top: 25px;
-}
-.mmiddlem .container .col.small p {
     font-size: 25px;
-    line-height: 1.5em;
+}
+.middlem .container .col.small p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.middlem .container .col.small .button {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+
 }
