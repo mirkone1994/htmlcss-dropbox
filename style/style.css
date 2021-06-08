@@ -13,7 +13,8 @@
 /********HEADER*******/
 header {
     width: 100%;
-    height: auto;
+    height: 800px;
+    background-color: #b4d0e7;
 }
 .toph {
     width: 100%;
@@ -22,7 +23,6 @@ header {
 }
 .toph .container {
     width: 100%;
-    height: 100%;
     margin: 0 auto;
 }
 .toph .container .col {
@@ -63,22 +63,20 @@ header {
 }
 .bottomh {
     width: 100%;
-    height: 800px;
     background-color: #b4d0e7;
     color: #000;
     position: relative;
+    top: 0;
+    left: 0;
 }
 .bottomh .container {
     width: 1400px;
-    height: 800px;
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 }
 h1 {
     font-size: 80px;
-    margin-top: 60px;
 }
 .bottomh .container .col.left {
     width: 30%;
@@ -114,20 +112,21 @@ h1 {
 /*sezione main top*/
 main {
     width: 100%;
-    height: auto;
+    height: 3000px;
 }
 .topm {
     width: 100%;
-    height: 1000px;
+    height: 1400px;
     position: relative;
+    top: 0;
+    left: 0;
 }
 .topm .container {
-    width: 1100px;
-    height: 500px;
+    margin-top: 200px;
+    width: 1500px;
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 }
 .topm .container h2 {
     font-size: 40px;
@@ -139,14 +138,12 @@ main {
 }
 .topm .container .col .side {
     width: calc(100% / 3 - 60px);
-    height: 1000px;
     float: left;
     margin: 30px 30px;
     border: 1px solid #d0d0d3;
 }
 .topm .container .col .side .boxh {
     border-bottom: 1px solid #d0d0d3;
-    height: 50px;
     text-align: center;
     line-height: 50px;
     vertical-align: middle;
@@ -184,7 +181,6 @@ main {
 }
 .topm .container .col .side .options .separator {
     width: 20%;
-    height: 1px;
     background-color: #d0d0d3;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -202,14 +198,12 @@ main {
 }
 .topm .container .team {
     width: 100%;
-    height: 250px;
     border: 1px solid #d0d0d3;
     margin-top: 20px;
     margin: 0 auto;
 }
 .topm .container .team .boxh {
     border-bottom: 1px solid #d0d0d3;
-    height: 50px;
     text-align: center;
     line-height: 50px;
     vertical-align: middle;
@@ -217,7 +211,6 @@ main {
 }
 .topm .container .team .col {
     width: 100%;
-    height: 50px;
 }
 .topm .container .team .col .left {
     width: 50%;
@@ -245,31 +238,29 @@ main {
 /*sezione main middle*/
 .middlem {
     width: 100%;
-    height: 2000px;
+    height: 2100px;
     position: relative;
+    top: 0;
+    left: 0;
 }
 .middlem .container.first {
     width: 1100px;
-    height: 500px;
-    position: relative;
-    top: 50%;
+    position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 30px;
+    transform: translateX(-50%);
 }
 .middlem .container.first .col {
     float: left;
 }
 .middlem .container.first .col.small {
     width: 45%;
-    height: 100%;
     padding: 25px 50px;
 }
 .middlem .container.first .col.big {
     width: 55%;
-    height: 100%;
+    height: 500px;
     background-image: url(../img/partner.png);
-    background-size: contain;
+    background-size: cover;
 }
 .middlem .container.first .col.small h2 {
     font-size: 25px;
@@ -285,11 +276,10 @@ main {
 }
 .middlem .container.second {
     width: 1100px;
-    height: 500px;
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 500px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 }
 .middlem .container.second .row {
     width: 100%;
@@ -320,9 +310,12 @@ main {
 }
 /*sezione main bottom*/
 .bottomm {
-    he
+    position: relative;
+    top: 0;
+    left: 0;
 }
 .bottomm .partners {
+    position: absolute;
     width: 100%;
     height: 300px;
 }
