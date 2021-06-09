@@ -19,6 +19,11 @@ body {
     color: #fff;
     padding: 5px 15px;
     text-decoration: none;
+    font-size: 14px;
+    transition: font-size 1s;
+}
+.button:hover {
+    font-size: 1.2em;
 }
 /********HEADER*******/
 header {
@@ -62,6 +67,9 @@ header {
 .toph .container .col.right ul li {
     margin-right: 30px;
 }
+.toph .container .col ul li:hover {
+    border-bottom: 1px solid #000;
+}
 .toph .container .col ul li a {
     text-decoration: none;
     color: #000;
@@ -101,6 +109,12 @@ h1 {
     font-size: 15px;
     line-height: 1.5em;
     margin-bottom: 30px;
+}
+.bottomh .container .col.left .arrowd .fas {
+    transition: transform 1s;
+}
+.bottomh .container .col.left .arrowd .fas:hover {
+    transform: translatey(10px);
 }
 .bottomh .container .col.right img {
     width: 100%;
