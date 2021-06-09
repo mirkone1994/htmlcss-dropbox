@@ -74,6 +74,9 @@ header {
     text-decoration: none;
     color: #000;
 }
+.toph .container .col ul li .button {
+    color: #fff;
+}
 .toph .container .col.right {
     text-align: right;
 }
@@ -438,6 +441,7 @@ main {
     background-image: url(../img/designit.svg);
     background-position: center;
     filter: invert();
+    transition: outline-offset 0.5s;
 }
 .bottomm .partners .col.left .topleft:hover {
     outline: 10px solid rgba(0, 0, 0, 0.5);
